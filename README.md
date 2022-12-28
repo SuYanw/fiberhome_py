@@ -83,3 +83,8 @@ setOnuDisableDHCP(placa, pon, onuid)
 rebootONU(placa, pon, onuid)
 ConfigureOnuBridge(placa, pon, onuid, port, vlanid, vlantype='T', disabledhcp=True)
 ```
+
+
+
+### Testing
+This is tested on RP1000 and RP1200  Fiberhome version. and python 3.8.
